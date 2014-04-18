@@ -6,18 +6,10 @@ Package.on_use(function (api) {
     api.use(["scss"]);
 
     api.add_files([
-        "assets/fonts/x.eot",
-        "assets/fonts/x.svg",
-        "assets/fonts/x.ttf",
-        "assets/fonts/x.woff"
+        "assets/fonts/fontawesome-webfont.eot",
+        "assets/fonts/fontawesome-webfont.svg",
+        "assets/fonts/fontawesome-webfont.ttf",
+        "assets/fonts/fontawesome-webfont.woff",
+        "assets/fonts/FontAwesome.otf"
     ], "client");
 });
-
-// Package.on_test(function(api) {
-//     api.use("font-awesome-sass");
-//     api.use(["scss", "tinytest", "test-helpers"]);
-
-//     api.add_files([
-//             "tests.scss"
-//         ], "client");
-// });
