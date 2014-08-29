@@ -1,7 +1,7 @@
 Package.describe({
     name: "mrt:font-awesome-sass",
     summary: "Font Awesome stylesheets in SCSS format",
-    version: "4.1.0-3",
+    version: "4.1.4",
     git: "https://github.com/reywood/meteor-font-awesome-sass.git"
 });
 
