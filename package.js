@@ -5,7 +5,7 @@ Package.describe({
     git: "https://github.com/reywood/meteor-font-awesome-sass.git"
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
     api.versionsFrom("METEOR@0.9.0");
 
     api.use(["fourseven:scss@0.9.5"], ["server"]);
@@ -36,7 +36,7 @@ Package.on_use(function (api) {
     ], "server");
 });
 
-Package.on_test(function(api) {
+Package.onTest(function(api) {
   api.use("mrt:font-awesome-sass");
   api.use(["fourseven:scss", "tinytest", "test-helpers"]);
 
