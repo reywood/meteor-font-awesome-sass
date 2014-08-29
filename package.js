@@ -1,5 +1,5 @@
 Package.describe({
-    name: "mrt:font-awesome-sass",
+    name: "reywood:font-awesome-sass",
     summary: "Font Awesome stylesheets in SCSS format",
     version: "4.1.5",
     git: "https://github.com/reywood/meteor-font-awesome-sass.git"
@@ -37,7 +37,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function(api) {
-  api.use("mrt:font-awesome-sass");
+  api.use("reywood:font-awesome-sass");
   api.use(["fourseven:scss", "tinytest", "test-helpers"]);
 
   api.add_files([

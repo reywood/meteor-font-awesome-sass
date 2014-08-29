@@ -7,7 +7,7 @@ To install
 ----------
 
 ```sh
-$ meteor add mrt:font-awesome-sass
+$ meteor add reywood:font-awesome-sass
 ```
 
 To use
@@ -16,7 +16,7 @@ To use
 To activate Font Awesome styles on your site, add the following line to the top of your main scss file:
 
 ```scss
-@import '.meteor/local/build/programs/server/assets/packages/mrt:font-awesome-sass/font-awesome';
+@import '.meteor/local/build/programs/server/assets/packages/reywood:font-awesome-sass/font-awesome';
 ```
 
 --------------------------------------------------------

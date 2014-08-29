@@ -1,5 +1,4 @@
 Tinytest.add("font-awesome-sass - SCSS variables should be available", function(test) {
-    console.log(Template);
     var $div = $('<div class="test-border-color-var"></div>');
     $("body").append($div);
 
