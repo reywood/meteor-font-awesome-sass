@@ -9,8 +9,8 @@ To install
 In addition to the font-awesome-sass package, you must explicitly install the scss package. Meteor will not compile your `*.scss` files otherwise.
 
 ```sh
-$ mrt add font-awesome-sass
-$ mrt add scss
+$ meteor add mrt:font-awesome-sass
+$ meteor add fourseven:scss
 ```
 
 To use
