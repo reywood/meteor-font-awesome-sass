@@ -6,11 +6,8 @@ Font Awesome stylesheets in SCSS format packaged for Meteor
 To install
 ----------
 
-In addition to the font-awesome-sass package, you must explicitly install the scss package. Meteor will not compile your `*.scss` files otherwise.
-
 ```sh
 $ meteor add mrt:font-awesome-sass
-$ meteor add fourseven:scss
 ```
 
 To use
@@ -19,7 +16,7 @@ To use
 To activate Font Awesome styles on your site, add the following line to the top of your main scss file:
 
 ```scss
-@import 'packages/font-awesome-sass/font-awesome';
+@import 'packages/mrt:font-awesome-sass/font-awesome';
 ```
 
 --------------------------------------------------------
