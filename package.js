@@ -17,3 +17,13 @@ Package.on_use(function (api) {
         "assets/fonts/FontAwesome.otf"
     ], "client");
 });
+
+Package.on_test(function(api) {
+  api.use("mrt:font-awesome-sass");
+  api.use(["fourseven:scss", "tinytest", "test-helpers"]);
+
+  api.add_files([
+      "tests.scss",
+      "tests.js"
+    ], "client");
+});

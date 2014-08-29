@@ -1,0 +1,9 @@
+@import 'font-awesome';
+
+.test-border-color-var {
+    border-color: $fa-border-color;
+}
+
+.test-extend-fa {
+    @extend .fa;
+}
