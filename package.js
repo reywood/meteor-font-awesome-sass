@@ -1,12 +1,12 @@
 Package.describe({
     name: "reywood:font-awesome-sass",
     summary: "Font Awesome stylesheets in SCSS format",
-    version: "4.2.0",
+    version: "4.2.1",
     git: "https://github.com/reywood/meteor-font-awesome-sass.git"
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom("METEOR@0.9.0");
+    api.versionsFrom("METEOR@0.9.2");
 
     api.use(["fourseven:scss@0.9.5"], ["server"]);
     api.imply("fourseven:scss@0.9.5", ["server"]);

@@ -16,10 +16,8 @@ To use
 To activate Font Awesome styles on your site, add the following line to the top of your main scss file:
 
 ```scss
-@import '.meteor/local/build/programs/server/assets/packages/reywood:font-awesome-sass/font-awesome';
+@import '.meteor/local/build/programs/server/assets/packages/reywood_font-awesome-sass/font-awesome';
 ```
-
-Depending on your system, you may have to replace the `:` in the above path with `_`.
 
 --------------------------------------------------------
 
