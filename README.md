@@ -1,6 +1,8 @@
 meteor-font-awesome-sass
 ========================
 
+[![Build Status](https://travis-ci.org/reywood/meteor-font-awesome-sass.svg?branch=master)](https://travis-ci.org/reywood/meteor-font-awesome-sass)
+
 Font Awesome stylesheets in SCSS format packaged for Meteor
 
 **IMPORTANT UPDATE:** As of version 4.2.2_1, the `fourseven:scss` package is no longer automatically installed with this package. This allows projects to choose which SCSS compiler package they would like to use.
