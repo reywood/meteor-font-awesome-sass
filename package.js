@@ -1,7 +1,7 @@
 Package.describe({
     name: 'reywood:font-awesome-sass',
     summary: 'Font Awesome stylesheets in SCSS format',
-    version: '4.2.2_1',
+    version: '4.3.0_1',
     git: 'https://github.com/reywood/meteor-font-awesome-sass.git'
 });
 
@@ -13,11 +13,13 @@ Package.onUse(function (api) {
         'assets/fonts/fontawesome-webfont.svg',
         'assets/fonts/fontawesome-webfont.ttf',
         'assets/fonts/fontawesome-webfont.woff',
+        'assets/fonts/fontawesome-webfont.woff2',
         'assets/fonts/FontAwesome.otf'
     ], 'client');
 
     api.add_files([
         '_font-awesome.scss',
+        'assets/scss/_animated.scss',
         'assets/scss/_bordered-pulled.scss',
         'assets/scss/_core.scss',
         'assets/scss/_fixed-width.scss',
@@ -27,7 +29,6 @@ Package.onUse(function (api) {
         'assets/scss/_mixins.scss',
         'assets/scss/_path.scss',
         'assets/scss/_rotated-flipped.scss',
-        'assets/scss/_spinning.scss',
         'assets/scss/_stacked.scss',
         'assets/scss/_variables.scss'
     ], 'server');
