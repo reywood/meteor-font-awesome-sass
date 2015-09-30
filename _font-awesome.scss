@@ -5,15 +5,15 @@
 
 $fa-font-path: '/packages/reywood_font-awesome-sass/assets/fonts' !default;
 
-@import "assets/scss/variables";
-@import "assets/scss/mixins";
-@import "assets/scss/path";
-@import "assets/scss/core";
-@import "assets/scss/larger";
-@import "assets/scss/fixed-width";
-@import "assets/scss/list";
-@import "assets/scss/bordered-pulled";
-@import "assets/scss/animated";
-@import "assets/scss/rotated-flipped";
-@import "assets/scss/stacked";
-@import "assets/scss/icons";
+@import "{reywood:font-awesome-sass}/assets/scss/variables";
+@import "{reywood:font-awesome-sass}/assets/scss/mixins";
+@import "{reywood:font-awesome-sass}/assets/scss/path";
+@import "{reywood:font-awesome-sass}/assets/scss/core";
+@import "{reywood:font-awesome-sass}/assets/scss/larger";
+@import "{reywood:font-awesome-sass}/assets/scss/fixed-width";
+@import "{reywood:font-awesome-sass}/assets/scss/list";
+@import "{reywood:font-awesome-sass}/assets/scss/bordered-pulled";
+@import "{reywood:font-awesome-sass}/assets/scss/animated";
+@import "{reywood:font-awesome-sass}/assets/scss/rotated-flipped";
+@import "{reywood:font-awesome-sass}/assets/scss/stacked";
+@import "{reywood:font-awesome-sass}/assets/scss/icons";

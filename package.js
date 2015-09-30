@@ -1,14 +1,18 @@
 Package.describe({
     name: 'reywood:font-awesome-sass',
     summary: 'Font Awesome stylesheets in SCSS format',
-    version: '4.3.0_1',
+    version: '4.3.0_2',
     git: 'https://github.com/reywood/meteor-font-awesome-sass.git'
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('METEOR@1.0');
+    api.versionsFrom('METEOR@1.2');
+    api.use([
+        'meteor',
+        'fourseven:scss'
+    ]);
 
-    api.add_files([
+    api.addAssets([
         'assets/fonts/fontawesome-webfont.eot',
         'assets/fonts/fontawesome-webfont.svg',
         'assets/fonts/fontawesome-webfont.ttf',
@@ -17,7 +21,7 @@ Package.onUse(function (api) {
         'assets/fonts/FontAwesome.otf'
     ], 'client');
 
-    api.add_files([
+    api.addFiles([
         '_font-awesome.scss',
         'assets/scss/_animated.scss',
         'assets/scss/_bordered-pulled.scss',
@@ -31,15 +35,20 @@ Package.onUse(function (api) {
         'assets/scss/_rotated-flipped.scss',
         'assets/scss/_stacked.scss',
         'assets/scss/_variables.scss'
-    ], 'server');
+    ], 'client');
 });
 
 Package.onTest(function(api) {
-  api.use('reywood:font-awesome-sass');
-  api.use(['fourseven:scss', 'tinytest', 'test-helpers']);
+    api.use('reywood:font-awesome-sass');
+    api.use([
+        'meteor',
+        'fourseven:scss',
+        'tinytest',
+        'test-helpers'
+    ]);
 
-  api.add_files([
-      'tests.scss',
-      'tests.js'
+    api.addFiles([
+        'tests.scss',
+        'tests.js'
     ], 'client');
 });
