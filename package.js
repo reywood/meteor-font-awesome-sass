@@ -38,17 +38,17 @@ Package.onUse(function (api) {
     ], 'client');
 });
 
-// Package.onTest(function(api) {
-//     api.use('reywood:font-awesome-sass');
-//     api.use([
-//         'meteor',
-//         'fourseven:scss',
-//         'tinytest',
-//         'test-helpers'
-//     ]);
+Package.onTest(function(api) {
+    api.use('reywood:font-awesome-sass');
+    api.use([
+        'fourseven:scss@3.3.3',
+        'jquery',
+        'tinytest',
+        'test-helpers'
+    ]);
 
-//     api.addFiles([
-//         'tests.scss',
-//         'tests.js'
-//     ], 'client');
-// });
+    api.addFiles([
+        'tests.scss',
+        'tests.js'
+    ], 'client');
+});
