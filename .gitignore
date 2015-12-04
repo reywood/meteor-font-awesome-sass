@@ -1,3 +1,7 @@
 .sass-cache
 /build
 .build*
+*.sublime-workspace
+version.json
+.versions
+.npm
