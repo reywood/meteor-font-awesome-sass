@@ -1,7 +1,7 @@
 Package.describe({
     name: 'reywood:font-awesome-sass',
     summary: 'Font Awesome stylesheets in SCSS format',
-    version: '4.4.0_1',
+    version: '4.5.0_1',
     git: 'https://github.com/reywood/meteor-font-awesome-sass.git'
 });
 
