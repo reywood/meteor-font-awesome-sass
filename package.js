@@ -1,7 +1,7 @@
 Package.describe({
     name: 'reywood:font-awesome-sass',
     summary: 'Font Awesome stylesheets in SCSS format',
-    version: '4.5.0_2',
+    version: '4.7.0_1',
     git: 'https://github.com/reywood/meteor-font-awesome-sass.git'
 });
 
@@ -33,6 +33,7 @@ Package.onUse(function (api) {
         'assets/scss/_mixins.scss',
         'assets/scss/_path.scss',
         'assets/scss/_rotated-flipped.scss',
+        'assets/scss/_screen-reader.scss',
         'assets/scss/_stacked.scss',
         'assets/scss/_variables.scss'
     ], 'client');
