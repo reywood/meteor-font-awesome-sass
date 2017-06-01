@@ -1,5 +1,5 @@
 /*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
@@ -17,3 +17,4 @@ $fa-font-path: '/packages/reywood_font-awesome-sass/assets/fonts' !default;
 @import "{reywood:font-awesome-sass}/assets/scss/rotated-flipped";
 @import "{reywood:font-awesome-sass}/assets/scss/stacked";
 @import "{reywood:font-awesome-sass}/assets/scss/icons";
+@import "{reywood:font-awesome-sass}/assets/scss/screen-reader";
